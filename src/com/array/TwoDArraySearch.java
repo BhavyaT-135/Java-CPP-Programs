@@ -1,4 +1,4 @@
-package bhavya;
+package com.array;
 
 import java.util.Scanner;
 import java.util.Arrays;

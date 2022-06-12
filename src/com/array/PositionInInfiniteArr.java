@@ -29,7 +29,6 @@ public class PositionInInfiniteArr {
             start = newStart;
         }
         return searchRange(arr, target, start, end);
-        ;
     }
 
     static int searchRange(int[] nums, int target, int start, int end) {

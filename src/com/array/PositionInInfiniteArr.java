@@ -24,9 +24,10 @@ public class PositionInInfiniteArr {
         // condition for the target to lie in the range
         while (target > arr[end]) {
             int newStart = end + 1;
-            //end-start+1 is the size of the box
+            // end-start+1 is the size of the box
             end = end + ((end - start + 1) * 2);
             ans = searchRange(arr, target, newStart, end);
+            start = newStart;
         }
         return ans;
     }

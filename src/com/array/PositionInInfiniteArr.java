@@ -26,10 +26,10 @@ public class PositionInInfiniteArr {
             int newStart = end + 1;
             // end-start+1 is the size of the box
             end = end + ((end - start + 1) * 2);
-            ans = searchRange(arr, target, newStart, end);
             start = newStart;
         }
-        return ans;
+        return searchRange(arr, target, start, end);
+        ;
     }
 
     static int searchRange(int[] nums, int target, int start, int end) {

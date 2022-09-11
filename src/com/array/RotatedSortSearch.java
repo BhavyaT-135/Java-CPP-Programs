@@ -5,6 +5,7 @@ public class RotatedSortSearch {
         int[] arr = { 2, 9, 2, 2, 2 };
         System.out.println(findPivotWithDuplicates(arr));
         System.out.println(search(arr, 9));
+        System.out.println(countRotation(arr));
     }
 
     static int search(int[] nums, int target) {
@@ -103,5 +104,10 @@ public class RotatedSortSearch {
         }
         return -1;
     }
+
+    static int countRotation(int[] arr) {
+        int pivot = findPivot(arr);
+        return pivot + 1;
+    }
 }
- 
+  

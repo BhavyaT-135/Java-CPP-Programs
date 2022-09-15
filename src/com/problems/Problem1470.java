@@ -1,3 +1,5 @@
+package com.problems;
+
 import java.util.Arrays;
 
 public class Problem1470 {

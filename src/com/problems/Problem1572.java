@@ -7,14 +7,14 @@ public class Problem1572 {
     }
     
     static int diagonalSum(int[][] mat) {
-        int ans = 0;
-        for(int i=0; i <= mat.length -1; i++){
-            ans += mat[i][i];
-            ans += mat[i][mat.length - 1 - i];
+        int sum = 0;
+        for (int i = 0; i < mat.length; i++) {
+            for (int j = 0; j < mat.length; j++) {
+                if (i == j || i + j == mat.length - 1) {
+                    sum += mat[i][j];
+                }
+            }
         }
-        if(mat.length%2 != 0){
-            ans = ans - mat[mat.length/2][mat.length/2];   
-        }
-        return ans;
+        return sum;
     }
 }

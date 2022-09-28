@@ -2,7 +2,7 @@ package com.problems;
 
 public class Problem754 {
     public static void main(String[] args) {
-       System.out.println(reachNumber(3)); 
+       System.out.println(reachNumber(3))   ; 
     }
 
     static int reachNumber(int target) {

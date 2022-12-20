@@ -1,0 +1,567 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearch",
+            "request": "launch",
+            "mainClass": "com.array.BinarySearch",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearchMatrix",
+            "request": "launch",
+            "mainClass": "com.array.BinarySearchMatrix",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch CeilingOfNumber",
+            "request": "launch",
+            "mainClass": "com.array.CeilingOfNumber",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch CeilingOfNumber2",
+            "request": "launch",
+            "mainClass": "com.array.CeilingOfNumber2",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch FloorOfNumber",
+            "request": "launch",
+            "mainClass": "com.array.FloorOfNumber",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinearSearch",
+            "request": "launch",
+            "mainClass": "com.array.LinearSearch",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch PeakMountainArray",
+            "request": "launch",
+            "mainClass": "com.array.PeakMountainArray",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch PlusOne",
+            "request": "launch",
+            "mainClass": "com.array.PlusOne",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch PositionInInfiniteArr",
+            "request": "launch",
+            "mainClass": "com.array.PositionInInfiniteArr",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem34",
+            "request": "launch",
+            "mainClass": "com.array.Problem34",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem410",
+            "request": "launch",
+            "mainClass": "com.array.Problem410",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem744",
+            "request": "launch",
+            "mainClass": "com.array.Problem744",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotatedSortSearch",
+            "request": "launch",
+            "mainClass": "com.array.RotatedSortSearch",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch RowColMatrix",
+            "request": "launch",
+            "mainClass": "com.array.RowColMatrix",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchSortedMatrix",
+            "request": "launch",
+            "mainClass": "com.array.SearchSortedMatrix",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoDArraySearch",
+            "request": "launch",
+            "mainClass": "com.array.TwoDArraySearch",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Case",
+            "request": "launch",
+            "mainClass": "com.bhavya.Case",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Changevalue",
+            "request": "launch",
+            "mainClass": "com.bhavya.Changevalue",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibonacci",
+            "request": "launch",
+            "mainClass": "com.bhavya.Fibonacci",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inputs",
+            "request": "launch",
+            "mainClass": "com.bhavya.Inputs",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "com.bhavya.Main",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Numbercheck",
+            "request": "launch",
+            "mainClass": "com.bhavya.Numbercheck",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Reverse",
+            "request": "launch",
+            "mainClass": "com.bhavya.Reverse",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Scoping",
+            "request": "launch",
+            "mainClass": "com.bhavya.Scoping",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Shadow",
+            "request": "launch",
+            "mainClass": "com.bhavya.Shadow",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sum",
+            "request": "launch",
+            "mainClass": "com.bhavya.Sum",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Swap",
+            "request": "launch",
+            "mainClass": "com.bhavya.Swap",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Switchfruit",
+            "request": "launch",
+            "mainClass": "com.bhavya.Switchfruit",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch VarArgs",
+            "request": "launch",
+            "mainClass": "com.bhavya.VarArgs",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern1",
+            "request": "launch",
+            "mainClass": "com.patterns.Pattern1",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern2",
+            "request": "launch",
+            "mainClass": "com.patterns.Pattern2",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern3",
+            "request": "launch",
+            "mainClass": "com.patterns.Pattern3",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern4",
+            "request": "launch",
+            "mainClass": "com.patterns.Pattern4",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern5",
+            "request": "launch",
+            "mainClass": "com.patterns.Pattern5",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern6",
+            "request": "launch",
+            "mainClass": "com.patterns.Pattern6",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern7",
+            "request": "launch",
+            "mainClass": "com.patterns.Pattern7",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindAverage",
+            "request": "launch",
+            "mainClass": "com.problems.FindAverage",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindCount",
+            "request": "launch",
+            "mainClass": "com.problems.FindCount",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch NEmailAddresses",
+            "request": "launch",
+            "mainClass": "com.problems.NEmailAddresses",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem1051",
+            "request": "launch",
+            "mainClass": "com.problems.Problem1051",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem1351",
+            "request": "launch",
+            "mainClass": "com.problems.Problem1351",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem1470",
+            "request": "launch",
+            "mainClass": "com.problems.Problem1470",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem152",
+            "request": "launch",
+            "mainClass": "com.problems.Problem152",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem1539",
+            "request": "launch",
+            "mainClass": "com.problems.Problem1539",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem1572",
+            "request": "launch",
+            "mainClass": "com.problems.Problem1572",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem169",
+            "request": "launch",
+            "mainClass": "com.problems.Problem169",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem1838",
+            "request": "launch",
+            "mainClass": "com.problems.Problem1838",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem35",
+            "request": "launch",
+            "mainClass": "com.problems.Problem35",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem540",
+            "request": "launch",
+            "mainClass": "com.problems.Problem540",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem55",
+            "request": "launch",
+            "mainClass": "com.problems.Problem55",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem62",
+            "request": "launch",
+            "mainClass": "com.problems.Problem62",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem744(1)",
+            "request": "launch",
+            "mainClass": "com.problems.Problem744",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem754",
+            "request": "launch",
+            "mainClass": "com.problems.Problem754",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearchRecursion",
+            "request": "launch",
+            "mainClass": "com.recursion.BinarySearchRecursion",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial",
+            "request": "launch",
+            "mainClass": "com.recursion.Factorial",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibonacci(1)",
+            "request": "launch",
+            "mainClass": "com.recursion.Fibonacci",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "com.recursion.HelloWorld",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberExampleRecursion",
+            "request": "launch",
+            "mainClass": "com.recursion.NumberExampleRecursion",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumbersExample",
+            "request": "launch",
+            "mainClass": "com.recursion.NumbersExample",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSort",
+            "request": "launch",
+            "mainClass": "com.sorting.BubbleSort",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch CycleSort",
+            "request": "launch",
+            "mainClass": "com.sorting.CycleSort",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindAllDuplicates",
+            "request": "launch",
+            "mainClass": "com.sorting.FindAllDuplicates",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindAllMissing",
+            "request": "launch",
+            "mainClass": "com.sorting.FindAllMissing",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMissingPositive",
+            "request": "launch",
+            "mainClass": "com.sorting.FindMissingPositive",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSort",
+            "request": "launch",
+            "mainClass": "com.sorting.InsertionSort",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch MissingNumber",
+            "request": "launch",
+            "mainClass": "com.sorting.MissingNumber",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch SelectionSort",
+            "request": "launch",
+            "mainClass": "com.sorting.SelectionSort",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaneAlgorithm",
+            "request": "launch",
+            "mainClass": "com.striver.arrays_I.KadaneAlgorithm",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergedSortedArrays",
+            "request": "launch",
+            "mainClass": "com.striver.arrays_I.MergedSortedArrays",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch NextPermutation",
+            "request": "launch",
+            "mainClass": "com.striver.arrays_I.NextPermutation",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch PascalsTriangle",
+            "request": "launch",
+            "mainClass": "com.striver.arrays_I.PascalsTriangle",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateImage",
+            "request": "launch",
+            "mainClass": "com.striver.arrays_I.RotateImage",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch SetMatrixZero",
+            "request": "launch",
+            "mainClass": "com.striver.arrays_I.SetMatrixZero",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch StockBuyAndSell",
+            "request": "launch",
+            "mainClass": "com.striver.arrays_I.StockBuyAndSell",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch CustomQueue",
+            "request": "launch",
+            "mainClass": "com.temp.CustomQueue",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch CustomStack",
+            "request": "launch",
+            "mainClass": "com.temp.CustomStack",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch DL",
+            "request": "launch",
+            "mainClass": "com.temp.DL",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch LL",
+            "request": "launch",
+            "mainClass": "com.temp.LL",
+            "projectName": "Java Programs_dbbb4cba"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(1)",
+            "request": "launch",
+            "mainClass": "com.temp.Main",
+            "projectName": "Java Programs_dbbb4cba"
+        }
+    ]
+}

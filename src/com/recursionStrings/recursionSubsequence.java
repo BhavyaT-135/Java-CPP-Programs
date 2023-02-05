@@ -8,6 +8,8 @@ public class recursionSubsequence {
         ArrayList<String> ans = new ArrayList<>();
         ans = subseq("", "abc");
         System.out.println(ans.toString());
+        subsequenceAscii("", "abc");
+
     }
 
     public static void subsequence(String p, String up) {
@@ -22,7 +24,7 @@ public class recursionSubsequence {
     }
 
     public static ArrayList<String> subseq(String p, String up) {
-        
+
         if (up.isEmpty()) {
             ArrayList<String> list = new ArrayList<>();
             list.add(p);
@@ -35,5 +37,17 @@ public class recursionSubsequence {
 
         left.addAll(right);
         return left;
+    }
+    
+    public static void subsequenceAscii(String p, String up) {
+        if (up.isEmpty()) {
+            System.out.println(p);
+            return;
+        }
+
+        char ch = up.charAt(0);
+        subsequenceAscii(p + ch, up.substring(1));
+        subsequenceAscii(p, up.substring(1));
+        subsequenceAscii(p + (ch+0), up.substring(1));
     }
 }

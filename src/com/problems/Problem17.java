@@ -8,6 +8,7 @@ public class Problem17 {
         phoneNumberLetter("", digits);
         ArrayList<String> ans = phoneNumberLetter2("", digits);
         System.out.println(ans.toString());
+        System.out.println(phoneNumberLetterCount("", digits));
     }
     
     static void phoneNumberLetter(String p, String up) {
@@ -45,5 +46,23 @@ public class Problem17 {
         }
 
         return ans;
+    }
+
+    static int phoneNumberLetterCount(String p, String up) {
+        if (up.isEmpty()) {
+            return 1;
+        }
+
+        int count = 0;
+
+        int digit = up.charAt(0) - '0';// This will convert '2' into 2
+
+        for (int i = (digit - 1) * 3; i < digit * 3; i++) {
+
+            char ch = (char) ('a' + i);
+
+            count = count + phoneNumberLetterCount(p + ch, up.substring(1));
+        }
+        return count;
     }
 }

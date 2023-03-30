@@ -2,7 +2,7 @@ package com.backtracking;
 
 public class MazeProblem {
   public static void main(String[] args) {
-    int size = 2;
+    int size = 3;
     System.out.println(mazeSolver(size, size));
   }
 

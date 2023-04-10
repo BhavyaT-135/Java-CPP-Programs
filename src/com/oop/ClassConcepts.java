@@ -1,7 +1,17 @@
 package com.oop;
 
 public class ClassConcepts {
-  
+
+  static class A {
+    final int rno = 5;
+    String name;
+
+    A(String name) {
+      this.name = name;
+    }
+  }
+
+
    static class Student {
     int rno;
     String name;
@@ -13,10 +23,16 @@ public class ClassConcepts {
       this.marks = 0;
     }
 
-    Student (int rno, String name, float marks) {
+    Student(int rno, String name, float marks) {
       this.rno = rno;
       this.name = name;
       this.marks = marks;
+    }
+    
+    Student(Student other) {
+      this.name = other.name;
+      this.rno = other.rno;
+      this.marks = other.marks;
     }
 
     void greeting() {
@@ -49,5 +65,9 @@ public class ClassConcepts {
     System.out.println(gaurav.rno);
     System.out.println(gaurav.name);
     gaurav.greeting();
+
+    final A temp = new A("Einstein");
+    temp.name = "Albert";
+    System.out.println(temp.name + " " + temp.rno);
   }
 }

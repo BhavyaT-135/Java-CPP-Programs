@@ -7,7 +7,8 @@ public class Main {
     // System.out.println(bhavya.population);
     // System.out.println(rahul.population);
     // System.out.println(Human.population); // Convention to use class name to reference static variables.
-
+    Main temp = new Main();
+    temp.greeting();
     fun();
   }
 

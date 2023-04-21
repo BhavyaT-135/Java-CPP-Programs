@@ -10,10 +10,15 @@ public class Main {
     Main temp = new Main();
     temp.greeting();
     fun();
+    temp.fun2();
   }
 
-  static void fun(){
+  static void fun() {
     System.out.println("Having fun!");
+  }
+
+  void fun2() {
+    greeting();
   }
 
   void greeting() {

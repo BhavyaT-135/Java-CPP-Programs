@@ -1,6 +1,6 @@
 package com.oop.interfaces;
 
-public interface Brake {
+public interface Media {
 
   void start();
 
